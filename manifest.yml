@@ -1,0 +1,7 @@
+---
+applications:
+- name: 24sixty
+  memory: 32MB
+  instances: 2
+  path: .
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
